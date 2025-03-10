@@ -1,0 +1,14 @@
+CREATE USER 'usuario_inventario'@'localhost' IDENTIFIED BY 'ContraseñaSegura123!'; 
+GRANT 'operador_inventario' TO 'usuario_inventario'@'localhost';
+CREATE USER 'usuario_admin'@'localhost' IDENTIFIED BY 'ContraseñaSuperSegura!';
+GRANT 'administrador_sistema' TO 'usuario_admin'@'localhost';
+CREATE USER 'usuario_gerente'@'localhost' IDENTIFIED BY 'ContraseñaSegura456!';
+GRANT 'gerente' TO 'usuario_gerente'@'localhost';
+CREATE USER 'usuario_financiero'@'localhost' IDENTIFIED BY 'ContraseñaSegura789!';
+GRANT 'analista_financiero' TO 'usuario_financiero'@'localhost';
+CREATE USER 'usuario_soporte'@'localhost' IDENTIFIED BY 'ContraseñaSegura321!';
+GRANT 'atencion_cliente' TO 'usuario_soporte'@'localhost';
+CREATE USER 'usuario_soporte_tecnico'@'localhost' IDENTIFIED BY 'ContraseñaSegura654!';
+GRANT 'soporte_tecnico' TO 'usuario_soporte_tecnico'@'localhost';
+CREATE USER 'usuario_auditor'@'localhost' IDENTIFIED BY 'ContraseñaSegura987!';
+GRANT 'auditor' TO 'usuario_auditor'@'localhost';

@@ -1,0 +1,16 @@
+GRANT SELECT, UPDATE ON gestion_usuarios.inventario TO 'operador_inventario';
+Para "administrador_sistema": 
+GRANT ALL PRIVILEGES ON gestion_usuarios.* TO 'administrador_sistema';
+Para "gerente": 
+GRANT SELECT ON gestion_usuarios.ventas TO 'gerente';
+GRANT SELECT ON gestion_usuarios.clientes TO 'gerente';Para "analista_financiero": 
+GRANT SELECT ON gestion_usuarios.ventas TO 'analista_financiero';
+Para "atencion_cliente": 
+GRANT SELECT ON gestion_usuarios.clientes TO 'atencion_cliente';
+Para "soporte_tecnico": 
+GRANT SELECT ON gestion_usuarios.empleados TO 'soporte_tecnico';
+GRANT SELECT ON gestion_usuarios.ventas TO 'soporte_tecnico';
+Para "auditor": 
+GRANT SELECT ON gestion_usuarios.inventario TO 'auditor';
+GRANT SELECT ON gestion_usuarios.ventas TO 'auditor';
+GRANT SELECT ON gestion_usuarios.clientes TO 'auditor';

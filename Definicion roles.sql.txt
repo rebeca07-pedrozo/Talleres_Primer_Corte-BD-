@@ -1,0 +1,20 @@
+CREATE ROLE 'administrador_sistema';
+Query OK, 0 rows affected (0.004 sec)
+
+CREATE ROLE 'gerente';
+Query OK, 0 rows affected (0.001 sec)
+
+CREATE ROLE 'operador_inventario';
+Query OK, 0 rows affected (0.001 sec)
+
+CREATE ROLE 'analista_financiero';
+Query OK, 0 rows affected (0.001 sec)
+
+CREATE ROLE 'atencion_cliente';
+Query OK, 0 rows affected (0.001 sec)
+
+CREATE ROLE 'soporte_tecnico';
+Query OK, 0 rows affected (0.001 sec)
+
+CREATE ROLE 'auditor';
+Query OK, 0 rows affected (0.003 sec)

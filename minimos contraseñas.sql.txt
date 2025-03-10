@@ -1,0 +1,7 @@
+SET GLOBAL simple_password_check_minimal_length = 12;  
+
+SET GLOBAL simple_password_check_digits = 1; 
+
+SET GLOBAL simple_password_check_letters_same_case = 1;  
+
+SET GLOBAL simple_password_check_other_characters = 1; 
