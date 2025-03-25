@@ -67,3 +67,11 @@ a{
 a:hover{
     color: white;
 }
+.error{
+    background-color: rgb(202, 71, 71);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
